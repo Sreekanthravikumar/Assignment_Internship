@@ -13,7 +13,11 @@ Started the project by adding the necessary libraries and setting up the input a
   from tqdm import tqdm
   from sklearn.ensemble import RandomForestRegressor
   from sklearn.model_selection import train_test_split, GridSearchCV
-  from sklearn.metrics import r2_score, mean_absolute_error </pre>
+  from sklearn.metrics import r2_score, mean_absolute_error 
+
+  input_json = '/kaggle/input/input-for-ml/user-wallet-transactions.json'
+  output_csv = '/kaggle/working/wallet_scores.csv'
+</pre>
 
 
 
